@@ -42,8 +42,8 @@ def init():
     m_sense.gyroscope_init(IMU.GYROSCOPE_FREQ_13HZ, IMU.GYROSCOPE_SCALE_500DPS)
     #m_sense.magnetometer_init(IMU.MAGNETOMETER_FREQ_1_25HZ, IMU.MAGNETOMETER_SCALE_12GAUSS)
 
-    ssid = "DerGeraet"
-    password = "derboiii"
+    ssid = "SSID"
+    password = "PW"
     wifi = network.WLAN(network.STA_IF)
     wifi.active(True)
     wifi.connect(ssid, password)
